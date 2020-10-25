@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    src: url(../fonts/Gelion-Regular.ttf);
+    font-family: gel;
+}
+.nav-btn{
+    border: 2px solid #FB4C47;
+    box-sizing: border-box;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+.nav-class{
+    font-family: gel;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FB4C47;
+}
+.section-header h4{
+    font-family: gel;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 122%;
+    color: #FA5652;
+}
+.section-header h1 {
+    font-family: gel;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.section-header p{
+    font-family: gel; 
+    font-size: 14px;
+    line-height: 190%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.custom-btn{
+    background: #FB4C47;
+    box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+    border-radius: 65px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-family: gel;     
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 60px;
+}
+.header-wrapper{
+    padding: 100px 0;
+}
+@media(max-width: 768px){
+    .image-wrap{        
+        padding-top: 105px;
+    }
+}
+.image-wrap img{
+    max-width: 100%;
+    padding: 0 15px;
+}
+@media(max-width: 1024px){
+    .image-wrap img{        
+        padding-top: 45px;
+    }
+}
+
+.main-header{
+    padding: 80px 40px 20px 40px;
+}
+.corona-wrapper{
+    padding: 100px 0;
+    background-image: url(../images/Groupvirus.png);
+    background-repeat: no-repeat;
+    background-position: right 350px;
+    background-size: 150px 320px;
+}
+.corona-wrap{
+   
+}
+.corona-main-header{
+    padding: 120px 60px 20px 60px;
+}
+.corona-cls h4{
+    font-size: 21px;
+}
+.corona-cls h1{
+    font-size: 32px;
+}
+.corona-cls p{
+    font-size: 12px;
+    line-height: 215%;
+}
+.corona-btn .custom-btn{
+    font-size: 12px;
+    padding: 10px 30px;
+    color: #FA5652;
+    background: rgba(250, 86, 82, 0.15);
+}
+.contagion-wrapper{
+    padding: 100px 0;
+}
+.con-cls{
+    text-align: center;
+}
+.con-cls p{
+    padding: 0 350px 50px 350px;
+}
+@media(max-width: 1024px){
+    .con-cls p{        
+        padding: 0 230px 50px 230px;
+    }
+}
+@media(max-width: 768px){
+    .con-cls p{        
+        padding: 0 150px 50px 150px;
+    }
+}
+@media(max-width: 425px){
+    .con-cls p{        
+        padding: 0 50px 50px 50px;
+    }
+}
+.global-box{
+    background: #FFFFFF;
+    box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+.globalh1{
+    font-family: gel;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 147%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #035755;
+}
+.globalp{
+    font-family: gel;
+    font-size: 12px;
+    padding: 0 40px 40px 40px;
+    line-height: 185%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+@media(max-width: 1024px){
+    .globalp{        
+        padding: 0 30px 30px 30px;
+    }
+}
+.global-img{
+    min-height: 360px;
+    padding: 50px;
+    align-items: center;
+    max-width: 100%;
+}
+.symptomp-wrapper{
+    padding: 100px 0;
+    background-image: url(../images/back1.png), url(../images/back2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 720px, right 920px;
+    background-size: 150px 180px;
+}
+.symptomp-wrap{
+    
+}
+.sym-cls{
+    text-align: center;
+}
+.sym-cls p{
+    padding: 0 295px 50px 295px;
+}
+@media(max-width: 1024px){
+    .sym-cls p{        
+        padding: 0 225px 50px 225px;
+    }
+}
+@media(max-width: 768px){
+    .sym-cls p{        
+        padding: 0 105px 50px 105px;
+    }
+}
+@media(max-width: 425px){
+    .sym-cls p{        
+        padding: 0 50px 50px 50px;
+    }
+}
+.image-wrap .sym-img{
+    padding: 50px 100px;
+}
+@media(max-width: 425px){
+    .image-wrap .sym-img{
+        padding: 50px;
+    }
+}
+.do-wrapper{
+    padding: 100px 0;
+    background-image: url(../images/virus4.png), url(../images/virus5g.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 650px, right 2000px;
+    background-size: 110px 250px, 110px 330px;
+}
+@media(max-width: 768px){
+    .do-wrapper{        
+        background-position: left 650px, right 2100px;
+        background-size: 110px 250px, 110px 330px;
+    }
+}
+.do-wrap{
+   
+}
+.do-cls{
+    text-align: center;
+}
+.do-cls p{
+    padding: 0 310px 50px 310px;
+}
+@media(max-width: 1024px){
+    .do-cls p{        
+        padding: 0 230px 50px 230px;
+    }
+}
+@media(max-width: 768px){
+    .do-cls p{        
+        padding: 0 110px 50px 110px;
+    }
+}
+@media(max-width: 425px){
+    .do-cls p{        
+        padding: 0 50px 50px 50px;
+    }
+}
+.do-text{
+    padding: 200px 10px 0 10px;
+}
+.circle{
+    padding: 200px 10px 0 10px;
+}
+ .circle h1 span {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: rgba(250, 86, 82, 0.15);
+    font-family: gel;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 145%;
+    color: #FA5652;
+}
+@media(max-width: 768px){
+    .circle h1 span{        
+        font-size: 27px;
+    }
+}
+.do-text h2{
+    font-family: gel;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 147%;
+    color: #035755;
+}
+@media(max-width: 768px){
+    .do-text h2{        
+        font-weight: 400;
+        font-size: 27px;
+    }
+}
+.do-text p{
+    font-family: gel;
+    font-size: 14px;
+    line-height: 221%;
+    color: #4B4F51;
+}
+@media(max-width: 1024px){
+    .do-text p{        
+        padding: 0 45px 0 0;
+    }
+}
+@media(max-width: 768px){
+    .do-text p{  
+        font-size: 12px;
+        padding: 0 15px 0 0;
+    }
+}
+.image-wrap .do-img{
+    padding: 40px;
+}
+@media(max-width: 1024px){
+    .image-wrap .do-img{        
+        padding-top: 145px;
+    }
+}
+
+.inquery-wrapper{
+    padding: 100px 0;
+    background-image: url(../images/virusg2.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 220px 300px;
+}
+.inquery-wrap{
+    
+}
+.inqueries-up{
+    text-align: center;
+}
+.inqueries-up h1{
+    font-family: gel;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    padding: 0 330px;
+    color: #0C6C44;
+}
+@media(max-width: 1024px){
+    .inqueries-up h1{  
+        font-size: 35px;      
+        padding: 0 270px;
+    }
+}
+@media(max-width: 768px){
+    .inqueries-up h1{  
+        font-size: 27px;      
+        padding: 0 200px;
+    }
+}
+@media(max-width: 425px){
+    .inqueries-up h1{  
+        font-size: 27px;      
+        padding: 0 50px;
+    }
+}
+
+.inqueries-down{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 57px;
+    text-align: center;
+    margin: 0 250px;
+}
+@media(max-width: 768px){
+    .inqueries-down{ 
+        margin: 0 220px;
+    }
+}
+@media(max-width: 425px){
+    .inqueries-down{ 
+        margin: 0 80px;
+        display: grid;
+    }
+}
+
+.inqueries-down p{
+    padding: 20px 0 0 30px;
+    font-family: gel;
+    font-size: 14px;
+    line-height: 26px;
+    color: #758681;
+}
+@media(max-width: 768px){
+    .inqueries-down p{        
+        padding: 20px 0 0 10px;
+        font-size: 12px;
+    }
+}
+.inquery-btn{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+@media(max-width: 1024px){
+    .inquery-btn{        
+        padding-left: 100px;
+    }
+}
+@media(max-width: 768px){
+    .inquery-btn{        
+        padding-left: 20px;
+    }
+}
+.inquery-btn .custom-btn{
+    padding: 15px 40px;
+    font-family: gel;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+@media(max-width: 768px){
+    .inquery-btn .custom-btn{        
+        padding: 7px 20px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+}
+.copyright{
+    text-align: center;
+    font-family: gel;
+    font-size: 16px;
+    line-height: 28px;
+    color: #415E56;
+}
+.ul-class{
+    padding-right: 50px;
+}
+.li-class{
+    padding: 0 10px;
+}
+.fb{
+    color: #035755;
+}
+.yt{
+    color: #F44A45;
+}
