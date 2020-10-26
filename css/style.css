@@ -245,6 +245,11 @@ html{
 .do-text{
     padding: 200px 10px 0 10px;
 }
+@media(max-width: 425px){
+    .do-text{        
+        padding: 0 10px;
+    }
+}
 .circle{
     padding: 200px 10px 0 10px;
 }
@@ -362,48 +367,27 @@ html{
         display: grid;
     }
 }
-
-.inqueries-down p{
-    padding: 20px 0 0 30px;
+.inqueries-down form {
+    width: 100%;
+}
+.inqueries-down form input[type=text]{
+    width: 60%;
     font-family: gel;
+    margin-top: 15px;
     font-size: 14px;
     line-height: 26px;
     color: #758681;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
 }
-@media(max-width: 768px){
-    .inqueries-down p{        
-        padding: 20px 0 0 10px;
-        font-size: 12px;
-    }
+.inqueries-down form .custom-btn{
+    text-decoration: none;
+    width: 30%;
 }
-.inquery-btn{
-    padding-left: 250px;
-    padding-top: 20px;
-}
-@media(max-width: 1024px){
-    .inquery-btn{        
-        padding-left: 100px;
-    }
-}
-@media(max-width: 768px){
-    .inquery-btn{        
-        padding-left: 20px;
-    }
-}
-.inquery-btn .custom-btn{
-    padding: 15px 40px;
-    font-family: gel;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-@media(max-width: 768px){
-    .inquery-btn .custom-btn{        
-        padding: 7px 20px;
-        font-weight: 300;
-        font-size: 12px;
-    }
+.inqueries-down form .custom-btn:hover{
+    color: white;
 }
 .copyright{
     text-align: center;
